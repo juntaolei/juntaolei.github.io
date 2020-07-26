@@ -1,0 +1,47 @@
+{
+  "name": "juntaolei.github.io",
+  "version": "0.1.0",
+  "private": "true",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && cd out/ && git init . && git add -f .  && git commit -m \"Deploy Next.js to GitHub Pages\" && git push -f git@github.com:juntaolei/juntaolei.github.io.git master && cd .. && rm -rf out/"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "next": "latest",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/react-transition-group": "^4.4.0",
+    "@types/styled-components": "5.0.1",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "typescript": "3.5.2"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "styled-components",
+        {
+          "ssr": true
+        }
+      ]
+    ]
+  }
+}

@@ -78,7 +78,7 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
           <a href="https://github.com/juntaolei" aria-label="link to GitHub">
             <FontAwesomeIcon icon={faGithub} size="lg" aria-label="GitHub icon" />
           </a>
-          <a href="#linkedin" aria-label="link to LinkedIn">
+          <a href="https://www.linkedin.com/in/juntaolei" aria-label="link to LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} size="lg" aria-label="LinkedIn icon" />
           </a>
           <a href="mailto:contact@juntaolei.com" aria-label="shortcut to email">

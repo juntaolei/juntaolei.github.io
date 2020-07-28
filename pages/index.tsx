@@ -85,7 +85,7 @@ const Index: React.FC = () => {
           <a href="#linkedin" aria-label="link to LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} size="lg" aria-label="LinkedIn icon" />
           </a>
-          <a href="mailto:#mail" aria-label="shortcut to email">
+          <a href="mailto:contact@juntaolei.com" aria-label="shortcut to email">
             <FontAwesomeIcon icon={faEnvelope} size="lg" aria-label="email icon" />
           </a>
         </IconsDiv>

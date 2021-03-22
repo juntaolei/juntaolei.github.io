@@ -76,7 +76,7 @@ const Index: React.FC = () => {
         <meta property="og:title" content="Home Page" key="home" />
       </Head>
       <Div>
-        <Title>Hi, I'm an undergraduate at Cornell University studying computer science and linguistics.</Title>
+        <Title>Hi, I'm an undergraduate at Cornell University studying computer science.</Title>
         <Divider />
         <IconsDiv>
           <a href="https://github.com/juntaolei" aria-label="link to GitHub">
